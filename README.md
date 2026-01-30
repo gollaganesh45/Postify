@@ -52,6 +52,12 @@ npm start
 
 ### 3. Frontend Setup
 
+Create a `.env` file in the `frontend` directory:
+
+```env
+VITE_BACKEND_URL=http://localhost:5001/api
+```
+
 ```bash
 cd frontend
 npm install
