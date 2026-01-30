@@ -47,7 +47,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 Run the backend:
 ```bash
-npm run dev
+npm start
 ```
 
 ### 3. Frontend Setup
