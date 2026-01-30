@@ -8,7 +8,7 @@ import EmojiPicker from 'emoji-picker-react';
 import { IoClose } from 'react-icons/io5';
 import { toast } from 'react-toastify';
 
-const ENDPOINT = "http://localhost:5001";
+const ENDPOINT = import.meta.env.VITE_BACKEND_URL.replace('/api', '');
 var socket, selectedChatCompare;
 
 const Chat = () => {
